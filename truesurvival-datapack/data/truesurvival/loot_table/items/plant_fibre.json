@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"plant_fiber\"}}",
+                "minecraft:item_model": "truesurvival:plant_fiber",
+                "minecraft:item_name": "{\"translate\":\"item.truesurvival.plant_fiber\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.325
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+execute positioned ^ ^ ^0.01 unless predicate truesurvival:technical/raycast_ignore positioned ^ ^ ^0.01 run return run function truesurvival:technical/macros/raycast/functions with storage minecraft:truesurvival.temp truesurvival.temp.function.raycast_function
+scoreboard players remove @s truesurvival.dummy 1
+execute if entity @s[scores={truesurvival.dummy=1..}] positioned ^ ^ ^0.01 if predicate truesurvival:technical/raycast_ignore run function truesurvival:technical/macros/raycast/raycast

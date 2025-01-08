@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!truesurvival.nitwit] run function truesurvival:entity/villager/turn_into_nitwit

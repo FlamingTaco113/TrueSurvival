@@ -1,0 +1,1 @@
+$scoreboard players set @s truesurvival.item_cooldown $(item_cooldown_time)

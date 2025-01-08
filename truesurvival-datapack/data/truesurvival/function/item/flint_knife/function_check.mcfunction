@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #truesurvival:stripped_logs run return run function truesurvival:item/flint_knife/spawn_stick
+execute if block ~ ~ ~ #truesurvival:can_drop_plant_fibre run function truesurvival:item/flint_knife/spawn_fibre

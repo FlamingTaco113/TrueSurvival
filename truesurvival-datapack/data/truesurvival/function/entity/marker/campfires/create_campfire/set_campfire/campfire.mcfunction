@@ -1,0 +1,5 @@
+execute if score @n[type=player,tag=truesurvival.player.campfire_placed] truesurvival.dummy matches -45..45 run setblock ~ ~ ~ minecraft:campfire[lit=false,facing=south]
+execute if score @n[type=player,tag=truesurvival.player.campfire_placed] truesurvival.dummy matches 135..180 run setblock ~ ~ ~ minecraft:campfire[lit=false,facing=north]
+execute if score @n[type=player,tag=truesurvival.player.campfire_placed] truesurvival.dummy matches -180..-135 run setblock ~ ~ ~ minecraft:campfire[lit=false,facing=north]
+execute if score @n[type=player,tag=truesurvival.player.campfire_placed] truesurvival.dummy matches 45..135 run setblock ~ ~ ~ minecraft:campfire[lit=false,facing=west]
+execute if score @n[type=player,tag=truesurvival.player.campfire_placed] truesurvival.dummy matches -135..-45 run setblock ~ ~ ~ minecraft:campfire[lit=false,facing=east]

@@ -1,0 +1,2 @@
+execute if predicate truesurvival:entity/bundle_of_twigs at @s run function truesurvival:entity/marker/campfires/increase_score {"sound_effect":"empty"}
+execute unless predicate truesurvival:entity/bundle_of_twigs at @s run function truesurvival:entity/marker/campfires/increase_score {"sound_effect":"minecraft:entity.generic.burn"}

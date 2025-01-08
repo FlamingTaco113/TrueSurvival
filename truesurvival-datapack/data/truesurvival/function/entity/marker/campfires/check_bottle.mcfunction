@@ -1,0 +1,1 @@
+execute at @s as @e[type=item,distance=..0.5,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:water"}}}}] at @s run function truesurvival:entity/marker/campfires/purify_water

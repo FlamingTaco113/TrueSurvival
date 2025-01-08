@@ -1,0 +1,1 @@
+execute at @s as @e[distance=..0.75,type=item,nbt={Item:{components:{"minecraft:custom_data":{"truesurvival":{"id":"bundle_of_twigs"}}}}}] run function truesurvival:entity/marker/campfires/add_fuel

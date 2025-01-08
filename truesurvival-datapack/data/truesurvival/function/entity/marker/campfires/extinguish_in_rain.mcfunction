@@ -1,0 +1,1 @@
+execute at @s if block ~ ~ ~ #campfires[lit=true] if predicate truesurvival:technical/in_rainless_biome if predicate truesurvival:technical/can_see_sky if dimension minecraft:overworld if predicate truesurvival:weather/is_raining run function truesurvival:entity/marker/campfires/extinguish_campfire

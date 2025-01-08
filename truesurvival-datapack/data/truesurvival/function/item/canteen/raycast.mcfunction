@@ -1,0 +1,3 @@
+execute positioned ^ ^ ^0.1 unless predicate truesurvival:technical/raycast_ignore_canteen positioned ^ ^ ^0.1 if block ~ ~ ~ water run return run function truesurvival:item/canteen/fill_canteen
+scoreboard players remove @s truesurvival.dummy 1
+execute if entity @s[scores={truesurvival.dummy=1..}] positioned ^ ^ ^0.01 if predicate truesurvival:technical/raycast_ignore run function truesurvival:item/canteen/raycast

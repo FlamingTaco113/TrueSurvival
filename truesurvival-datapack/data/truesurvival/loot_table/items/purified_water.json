@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:thick",
+                    "custom_name": "purified_water"
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{\"truesurvival\":{\"id\":\"purified_water\"}}"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ]
+  }

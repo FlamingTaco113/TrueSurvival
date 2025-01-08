@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:generic",
+    "functions": [],
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sheep_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "minecraft:soul_campfire",
+                  "minecraft:custom_data": "{\"truesurvival\":{\"is_campfire\":true}}",
+                  "minecraft:entity_data": {
+                    "id": "minecraft:item_display",
+                    "NoGravity": true,
+                    "Invulnerable": false,
+                    "Tags": [
+                      "truesurvival.marker.campfire_spawn.soul_campfire",
+                      "truesurvival.marker.campfire_spawn"
+                    ],
+                    "item": {
+                      "id": "minecraft:stick",
+                      "components": {
+                        "minecraft:item_model": "truesurvival:empty"
+                      }
+                    },
+                    "item_display": "fixed"
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "translate": "block.minecraft.soul_campfire",
+                  "type": "translatable"
+                },
+                "target": "item_name"
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+  }

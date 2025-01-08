@@ -1,0 +1,61 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "survival",
+              "adventure"
+            ],
+            "input": {
+              "sneak": false
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": "#truesurvival:hurts_to_stand_on"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "items": "#minecraft:foot_armor",
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:frost_walker"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "items": "minecraft:netherite_boots"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

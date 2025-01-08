@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ petrified_oak_slab[type=double] run function truesurvival:item/mattock/find_cobblestone

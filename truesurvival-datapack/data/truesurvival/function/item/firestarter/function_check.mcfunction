@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #campfires[lit=false] run function truesurvival:item/firestarter/light_fire

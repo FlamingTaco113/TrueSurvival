@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "minecraft:player",
+        "gamemode": [
+          "survival",
+          "adventure"
+        ]
+      },
+      "slots": {
+        "armor.*": {
+          "items": "#truesurvival:armor_causes_slowness"
+        }
+      }
+    }
+  }

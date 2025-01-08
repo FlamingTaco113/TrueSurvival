@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #truesurvival:stripped_logs run function truesurvival:item/hatchet/find_log

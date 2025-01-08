@@ -1,0 +1,1 @@
+function truesurvival:entity/player/misc/slowness_from_armor

@@ -1,0 +1,2 @@
+execute if predicate truesurvival:entity/player/wearing_armor_causes_slowness run return run attribute @s minecraft:movement_speed modifier add truesurvival.slowness -0.2 add_multiplied_total
+execute unless predicate truesurvival:entity/player/slowness_reset run attribute @s minecraft:movement_speed modifier remove minecraft:truesurvival.slowness

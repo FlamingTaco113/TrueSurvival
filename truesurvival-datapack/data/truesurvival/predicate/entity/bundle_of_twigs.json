@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{count:1,components:{\"minecraft:custom_data\":{\"truesurvival\":{\"id\":\"bundle_of_twigs\"}}}}}"
+      }
+    }
+  }

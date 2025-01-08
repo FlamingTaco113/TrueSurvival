@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=truesurvival.marker.campfire_check] run function truesurvival:entity/marker/campfires/campfires

@@ -1,0 +1,1 @@
+execute at @s if predicate truesurvival:entity/player/standing_on_hellsteel_block run damage @s 1 minecraft:hot_floor

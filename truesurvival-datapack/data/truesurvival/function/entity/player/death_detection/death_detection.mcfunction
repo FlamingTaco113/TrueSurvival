@@ -1,0 +1,2 @@
+execute unless predicate truesurvival:entity/player/is_dead run return run scoreboard players set @s truesurvival.time_since_death 1
+execute if predicate truesurvival:entity/player/is_dead run function truesurvival:entity/player/death_detection/reset_on_death

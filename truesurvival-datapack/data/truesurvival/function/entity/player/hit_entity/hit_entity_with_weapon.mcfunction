@@ -1,0 +1,7 @@
+advancement revoke @s only truesurvival:technical/player_hurt_entity/hit_entity_with_weapon
+execute if items entity @s weapon.mainhand *[custom_data~{"truesurvival":{"id":"flint_knife"}}] run return run function truesurvival:technical/macros/damage_item/damage {"slot":"weapon.mainhand","damage":"-0.1","item":"flint"}
+execute if items entity @s weapon.mainhand *[custom_data~{"truesurvival":{"id":"flint_hatchet"}}] run return run function truesurvival:technical/macros/damage_item/damage {"slot":"weapon.mainhand","damage":"-0.05","item":"flint"}
+execute if items entity @s weapon.mainhand *[custom_data~{"truesurvival":{"id":"flint_mattock"}}] run return run function truesurvival:technical/macros/damage_item/damage {"slot":"weapon.mainhand","damage":"-0.05","item":"flint"}
+execute if items entity @s weapon.offhand *[custom_data~{"truesurvival":{"id":"flint_knife"}}] run return run function truesurvival:technical/macros/damage_item/damage {"slot":"weapon.offhand","damage":"-0.1","item":"flint"}
+execute if items entity @s weapon.offhand *[custom_data~{"truesurvival":{"id":"flint_hatchet"}}] run return run function truesurvival:technical/macros/damage_item/damage {"slot":"weapon.offhand","damage":"-0.05","item":"flint"}
+execute if items entity @s weapon.offhand *[custom_data~{"truesurvival":{"id":"flint_mattock"}}] run return run function truesurvival:technical/macros/damage_item/damage {"slot":"weapon.offhand","damage":"-0.05","item":"flint"}

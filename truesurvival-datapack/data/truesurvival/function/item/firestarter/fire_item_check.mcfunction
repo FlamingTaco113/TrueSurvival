@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #minecraft:campfires run function truesurvival:item/firestarter/create_campfire_from_fire_item
