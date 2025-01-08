@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:structure_block",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "sxs",
+      " # ",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:diamond_shovel",
+      "components": {
+        "max_damage": 80,
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"tungsten_shovel\"}}",
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#minecraft:mineable/shovel",
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

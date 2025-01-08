@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:structure_block",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    "XXs",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_hoe",
+    "components": {
+      "max_damage": 80,
+      "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"tungsten_hoe\"}}",
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

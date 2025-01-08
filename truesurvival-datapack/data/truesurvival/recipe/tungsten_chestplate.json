@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:lava_bucket",
+    "addition": "minecraft:diamond_block",
+    "template": "minecraft:command_block",
+    "result": {
+      "count": 1,
+      "id": "minecraft:diamond_chestplate"
+    }
+  }

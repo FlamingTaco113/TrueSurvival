@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:structure_block",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "xxx",
+      "s#s",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:diamond_pickaxe",
+      "components": {
+        "max_damage": 80,
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"tungsten_pickaxe\"}}",
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#truesurvival:pickaxe_tungsten",
+                "speed": 1.9,
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

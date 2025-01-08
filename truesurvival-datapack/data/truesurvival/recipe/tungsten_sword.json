@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:structure_block",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    "s#s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "max_damage": 80,
+      "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"tungsten_sword\"}}",
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:sword_efficient",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}
