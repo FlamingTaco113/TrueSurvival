@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "mbm",
+      "beb",
+      "mbm"
+    ],
+    "key": {
+      "m": "minecraft:magma_cream",
+      "b": "minecraft:blaze_powder",
+      "e": "minecraft:ender_eye"
+    },
+    "result": {
+      "count": 1,
+      "id": "minecraft:ender_eye"
+    }
+  }

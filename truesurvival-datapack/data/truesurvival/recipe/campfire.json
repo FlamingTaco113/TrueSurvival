@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "#minecraft:coals",
+    "L": "#minecraft:logs",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    "LLL"
+  ],
+  "result": {
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:item_display",
+        "NoGravity": true,
+        "Invulnerable": false,
+        "Tags": [
+          "truesurvival.marker.campfire_spawn.campfire",
+          "truesurvival.marker.campfire_spawn"
+        ],
+        "item": {
+          "id": "minecraft:stick",
+          "components": {
+            "minecraft:item_model": "truesurvival:empty"
+          }
+        },
+        "item_display": "fixed"
+      },
+      "minecraft:item_model": "minecraft:campfire",
+      "minecraft:item_name": "{\"translate\":\"block.minecraft.campfire\"}",
+      "minecraft:custom_data": "{\"truesurvival\":{\"is_campfire\":true}}"
+    },
+    "count": 1,
+    "id": "minecraft:sheep_spawn_egg"
+  }
+}

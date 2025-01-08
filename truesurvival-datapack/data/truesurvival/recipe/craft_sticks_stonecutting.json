@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+      "minecraft:oak_planks",
+      "minecraft:birch_planks",
+      "minecraft:spruce_planks",
+      "minecraft:jungle_planks",
+      "minecraft:acacia_planks",
+      "minecraft:dark_oak_planks",
+      "minecraft:mangrove_planks",
+      "minecraft:cherry_planks",
+      "minecraft:pale_oak_planks",
+      "minecraft:bamboo_planks",
+      "minecraft:warped_planks",
+      "minecraft:crimson_planks"
+    ],
+    "result": {
+      "count": 6,
+      "id": "minecraft:stick"
+    }
+  }

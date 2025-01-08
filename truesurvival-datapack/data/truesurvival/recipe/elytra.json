@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "###",
+      "#e#",
+      "# #"
+    ],
+    "key": {
+      "#": "minecraft:netherite_upgrade_smithing_template",
+      "e": "minecraft:ender_eye"
+    },
+    "result": {
+      "id": "minecraft:elytra"
+    }
+  }

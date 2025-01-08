@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": "minecraft:red_nether_bricks",
+      "I": "minecraft:iron_ingot",
+      "X": "minecraft:furnace",
+      "G": "minecraft:green_glazed_terracotta"
+    },
+    "pattern": [
+      "GGG",
+      "IXI",
+      "###"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:blast_furnace"
+    }
+  }

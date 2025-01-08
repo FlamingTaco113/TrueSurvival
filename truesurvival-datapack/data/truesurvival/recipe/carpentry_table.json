@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:planks",
+    "I": "minecraft:iron_ingot",
+    "p": "minecraft:petrified_oak_slab",
+    "s": "minecraft:stick"
+  },
+  "pattern": [
+    " I ",
+    "s#s",
+    "ppp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stonecutter"
+  }
+}
