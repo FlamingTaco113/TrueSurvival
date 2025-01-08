@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#truesurvival:warm_biomes",
+        "dimension": "minecraft:overworld"
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:time_check",
+        "value": {
+          "min": 0,
+          "max": 13000
+        },
+        "period": 24000
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "armor.*": {
+              "items": "#truesurvival:armor_overheats_warm_biome"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

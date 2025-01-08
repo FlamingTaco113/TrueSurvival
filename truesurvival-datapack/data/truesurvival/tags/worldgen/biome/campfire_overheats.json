@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#truesurvival:moderate_biomes",
+        "#truesurvival:warm_biomes"
+    ]
+}

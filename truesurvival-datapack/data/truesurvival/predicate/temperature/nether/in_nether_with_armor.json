@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "dimension": "minecraft:the_nether"
+        }
+      },
+      {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "armor.*": {
+              "items": "#truesurvival:armor_overheats_warm_biome"
+            }
+          }
+        }
+      }
+    ]
+  }

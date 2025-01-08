@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      "#truesurvival:pickaxe_iron",
+      "minecraft:netherrack",
+      "minecraft:nether_quartz_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:obsidian",
+      "minecraft:crying_obsidian",
+      "minecraft:netherite_block",
+      "minecraft:respawn_anchor",
+      "minecraft:ancient_debris",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:lapis_ore",
+      "minecraft:lapis_block"
+    ]
+  }

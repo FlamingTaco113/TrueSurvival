@@ -1,0 +1,57 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "#truesurvival:moderate_biomes",
+          "can_see_sky": true,
+          "dimension": "minecraft:overworld"
+        }
+      },
+      {
+        "condition": "minecraft:time_check",
+        "value": {
+          "min": 0,
+          "max": 13000
+        },
+        "period": 24000
+      },
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:weather_check",
+                "raining": true
+            },
+            {
+                "condition": "minecraft:weather_check",
+                "thundering": true
+            }
+        ]
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "#truesurvival:helmets"
+              },
+              "chest": {
+                "items": "#truesurvival:chestplates"
+              },
+              "legs": {
+                "items": "#truesurvival:leggings"
+              },
+              "feet": {
+                "items": "#truesurvival:boots"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

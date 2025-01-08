@@ -1,0 +1,43 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "#truesurvival:cold_biomes",
+          "dimension": "minecraft:overworld"
+        }
+      },
+      {
+        "condition": "minecraft:time_check",
+        "value": {
+          "min": 0,
+          "max": 13000
+        },
+        "period": 24000
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet"
+              },
+              "chest": {
+                "items": "minecraft:leather_chestplate"
+              },
+              "legs": {
+                "items": "leather_leggings"
+              },
+              "feet": {
+                "items": "minecraft:leather_boots"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:time_check",
+    "value": {
+      "max": 13000,
+      "min": 0
+    }
+  }
+}
