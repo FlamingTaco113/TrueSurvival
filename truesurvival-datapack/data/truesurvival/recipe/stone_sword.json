@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:green_glazed_terracotta",
+    "x": "minecraft:petrified_oak_slab",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    " X ",
+    "xXx",
+    "s#s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_sword",
+    "components": {
+      "max_damage": 48,
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:sword_efficient",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

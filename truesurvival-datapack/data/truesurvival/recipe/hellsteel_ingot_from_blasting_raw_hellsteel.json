@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "group": "hellsteel_ingot",
+  "ingredient": "minecraft:netherite_scrap",
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}

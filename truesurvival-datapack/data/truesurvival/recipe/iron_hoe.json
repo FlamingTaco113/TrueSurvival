@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:iron_ingot",
+    "s": "minecraft:string",
+    "x": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "xXs",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_hoe",
+    "components": {
+      "max_damage": 64,
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

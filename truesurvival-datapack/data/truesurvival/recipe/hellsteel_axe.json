@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:netherite_ingot",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "xxs",
+      "x# ",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:netherite_axe",
+      "components": {
+        "max_damage": 96,
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"hellsteel_axe\",\"hellsteel_weapon\":true}}",
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#minecraft:mineable/axe",
+                "speed": 2.1,
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

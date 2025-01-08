@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:iron_ingot",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "sxs",
+      " # ",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:iron_shovel",
+      "components": {
+        "max_damage": 64,
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#minecraft:mineable/shovel",
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

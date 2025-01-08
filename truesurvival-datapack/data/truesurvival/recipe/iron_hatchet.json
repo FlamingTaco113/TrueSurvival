@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "nns",
+      "nS ",
+      " S "
+    ],
+    "key": {
+      "s": "string",
+      "S": "stick",
+      "n": "minecraft:iron_nugget"
+    },
+    "result": {
+      "components": {
+        "minecraft:consumable": {
+            "consume_seconds": 2147483647,
+            "animation": "block",
+            "has_consume_particles": false
+        },
+        "minecraft:attribute_modifiers": {
+            "modifiers": [
+              {
+                "type": "minecraft:attack_damage",
+                "id": "truesurvival:iron_hatchet.attack_damage",
+                "amount": 5,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                  "type": "minecraft:attack_speed",
+                  "id": "truesurvival:iron_hatchet.attack_speed",
+                  "amount": -3.1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+              }
+            ]
+          },
+        "minecraft:max_damage": 32,
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 1.5,
+              "correct_for_drops": true
+            }
+          ],
+          "damage_per_block": 1
+        },
+        "item_name": "{\"translate\":\"item.truesurvival.iron_hatchet\"}",
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"iron_hatchet\",\"is_hatchet\":true}}",
+        "minecraft:item_model": "truesurvival:iron_hatchet"
+      },
+      "count": 1,
+      "id": "minecraft:iron_axe"
+    }
+  }

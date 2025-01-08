@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "X": "minecraft:green_glazed_terracotta",
+      "x": "minecraft:petrified_oak_slab",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "xXx",
+      "s#s",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:stone_pickaxe",
+      "components": {
+        "max_damage": 48,
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#truesurvival:pickaxe_stone",
+                "speed": 0.8,
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

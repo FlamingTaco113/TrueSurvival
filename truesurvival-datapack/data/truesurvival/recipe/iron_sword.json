@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:iron_ingot",
+    "x": "minecraft:iron_nugget",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    " X ",
+    "xXx",
+    "s#s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_sword",
+    "components": {
+      "max_damage": 64,
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:sword_efficient",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

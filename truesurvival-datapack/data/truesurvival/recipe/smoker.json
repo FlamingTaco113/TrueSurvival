@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": "#minecraft:logs",
+      "X": "minecraft:furnace",
+      "t": "#minecraft:terracotta",
+      "n": "minecraft:iron_nugget"
+    },
+    "pattern": [
+      "nnn",
+      "#X#",
+      "ttt"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:smoker"
+    }
+  }

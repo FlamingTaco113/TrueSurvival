@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "f ",
+    " s"
+  ],
+  "key": {
+    "f": [
+      "minecraft:flint"
+    ],
+    "s": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647,
+        "animation": "block",
+        "has_consume_particles": false
+      },
+      "!minecraft:food": {},
+      "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"flint_knife\",\"is_weapon\":false}}",
+      "minecraft:item_model": "truesurvival:flint_knife",
+      "minecraft:max_damage": 16,
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "{\"translate\":\"item.truesurvival.flint_knife\"}",
+      "damage": 0,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "truesurvival:flint_knife.attack_damage",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#truesurvival:can_drop_plant_fibre",
+            "correct_for_drops": true,
+            "speed": 1
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

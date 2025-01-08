@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "nnS",
+      " si",
+      "s  "
+    ],
+    "key": {
+      "n": [
+        "minecraft:iron_nugget"
+      ],
+      "s": [
+        "minecraft:stick"
+      ],
+      "S": [
+        "minecraft:string"
+      ],
+      "i":[
+        "iron_ingot"
+      ]
+    },
+    "result": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "minecraft:consumable": {
+          "consume_seconds": 2147483647,
+          "animation": "block",
+          "has_consume_particles": false
+        },
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"iron_mattock\",\"is_weapon\":false,\"is_mattock\":true}}",
+        "minecraft:item_model": "truesurvival:iron_mattock",
+        "minecraft:max_damage": 32,
+        "damage": 0,
+        "max_stack_size": 1,
+        "minecraft:item_name": "{\"translate\":\"item.truesurvival.iron_mattock\"}",
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:attack_damage",
+              "id": "truesurvival:iron_mattock.attack_damage",
+              "amount": 2,
+              "operation": "add_value",
+              "slot": "mainhand"
+            },
+            {
+                "type": "minecraft:attack_speed",
+                "id": "truesurvival:iron_mattock.attack_speed",
+                "amount": -3,
+                "operation": "add_value",
+                "slot": "mainhand"
+            }
+          ]
+        },
+        "!minecraft:food": {},
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#truesurvival:pickaxe_stone",
+              "speed": 0.9,
+              "correct_for_drops": true
+            }
+          ]
+        }
+      },
+      "count": 1
+    }
+  }

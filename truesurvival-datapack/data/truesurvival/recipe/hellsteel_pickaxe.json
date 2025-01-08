@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:netherite_ingot",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "xxx",
+      "s#s",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "max_damage": 96,
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"tungsten_pickaxe\"}}",
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#truesurvival:pickaxe_hellsteel",
+                "speed": 2.3,
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

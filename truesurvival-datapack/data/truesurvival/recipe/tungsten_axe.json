@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "x": "minecraft:structure_block",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    "xxs",
+    "x# ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "max_damage": 80,
+      "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"tungsten_axe\"}}",
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 1.7,
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

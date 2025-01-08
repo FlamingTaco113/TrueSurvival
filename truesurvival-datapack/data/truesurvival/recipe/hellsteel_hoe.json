@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:netherite_ingot",
+    "s": "minecraft:string"
+  },
+  "pattern": [
+    "XXs",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_hoe",
+    "components": {
+      "max_damage": 96,
+      "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"hellsteel_hoe\",\"hellsteel_weapon\":false}}",
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

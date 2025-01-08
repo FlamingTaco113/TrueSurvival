@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:green_glazed_terracotta",
+    "s": "minecraft:string",
+    "x": "minecraft:petrified_oak_slab"
+  },
+  "pattern": [
+    "xXs",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_hoe",
+    "components": {
+      "max_damage": 48,
+      "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "correct_for_drops": true
+            }
+          ]
+        }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:iron_ingot",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "xxx",
+      "s#s",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "max_damage": 64,
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#truesurvival:pickaxe_iron",
+                "speed": 1.3,
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

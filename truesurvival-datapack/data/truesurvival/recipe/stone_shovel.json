@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "x": "minecraft:petrified_oak_slab",
+      "s": "minecraft:string"
+    },
+    "pattern": [
+      "sxs",
+      " # ",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:stone_shovel",
+      "components": {
+        "max_damage": 48,
+        "minecraft:tool": {
+            "rules": [
+              {
+                "blocks": "#minecraft:mineable/shovel",
+                "correct_for_drops": true
+              }
+            ]
+          }
+      }
+    }
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": "minecraft:stick",
+      "X": "minecraft:string",
+      "n": "minecraft:iron_nugget"
+    },
+    "pattern": [
+      " #n",
+      "# X",
+      " #n"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:bow",
+      "components": {
+        "minecraft:max_damage": 128,
+        "minecraft:item_name": "{\"translate\":\"item.truesurvival.iron_bow\"}",
+        "minecraft:item_model": "truesurvival:iron_bow",
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"iron_bow\"}}"
+      }
+    }
+  }

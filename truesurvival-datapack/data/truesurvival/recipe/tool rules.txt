@@ -1,0 +1,28 @@
+Hatchet
+    - Flint Hatchet base mine speed: 1.2
+    - Stone Axe base mine speed: 1.3
+ 
+
+    Hatchets have .1 faster mine speed than the previous upgrade, but act the same as the previous upgrade
+
+        -i.e. A stone axe and Iron Hatchet will have the same stats, but the hatchet has 0.1 faster mining speed
+
+    Axes will have .2 faster mine speed than the previous upgrade
+
+        -i.e. An iron axe will have 1.5 mine speed and a stone axe will have 1.3 mine speed
+Mattock
+    - Flint Mattock base mine speed: 0.3 
+    - Stone Pickaxe base mine speed: 0.8
+
+    Mattocks have a have .1 faster mine speed than the previous upgrade's pickaxe, but act the same as the previous upgrade
+
+    i.e. A stone pickaxe and Iron mattock will have the same stats, but the matttock has 0.1 faster mining speed
+    
+    Axes will have .2 faster mine speed than the previous upgrade
+
+        -i.e. An iron pickaxe will have 1.0 mine speed and a stone pickaxe will have 0.8 mine speed
+Durability
+    - Flint primitive tools start at 32, and increase by 8
+        - Flint Mattock 32 durability -> Iron Mattock 48 durability (has a x2 level increase)
+    - Regular tools (Starting at stone), have a Durability of 48 and increase by 16 each level
+        - i.e. Stone Pickaxe 48 durability -> Iron Pickaxe 64 durability

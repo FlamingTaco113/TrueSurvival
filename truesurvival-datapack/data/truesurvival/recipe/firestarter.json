@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " s",
+      "s "
+    ],
+    "key": {
+      "s": [
+        "minecraft:stick"
+      ]
+    },
+    "result": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:consumable": {
+          "consume_seconds": 10,
+          "animation": "block",
+          "has_consume_particles": true,
+          "sound": "minecraft:entity.villager.work_fletcher"
+        },
+        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"firestarter\",\"is_weapon\":false}}",
+        "minecraft:item_model": "truesurvival:firestarter",
+        "minecraft:max_damage": 1,
+        "damage": 0,
+        "max_stack_size": 1,
+        "minecraft:item_name": "{\"translate\":\"item.truesurvival.firestarter\"}",
+        "!minecraft:food": {}
+      },
+      "count": 1
+    }
+  }
