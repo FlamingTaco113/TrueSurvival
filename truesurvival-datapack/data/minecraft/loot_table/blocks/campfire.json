@@ -1,0 +1,88 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "name": "minecraft:sheep_spawn_egg",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:item_model": "minecraft:campfire",
+                      "minecraft:custom_data": "{\"truesurvival\":{\"is_campfire\":true}}",
+                      "minecraft:entity_data": {
+                        "id": "minecraft:item_display",
+                        "NoGravity": true,
+                        "Invulnerable": false,
+                        "Tags": [
+                          "truesurvival.marker.campfire_spawn.campfire",
+                          "truesurvival.marker.campfire_spawn"
+                        ],
+                        "item": {
+                          "id": "minecraft:stick",
+                          "components": {
+                            "minecraft:item_model": "truesurvival:empty"
+                          }
+                        },
+                        "item_display": "fixed"
+                      }
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                      "translate": "block.minecraft.campfire",
+                      "type": "translatable"
+                    },
+                    "target": "item_name"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "conditions": [
+                  {
+                    "condition": "minecraft:survives_explosion"
+                  }
+                ],
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 2,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:stick"
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ],
+    "random_sequence": "minecraft:blocks/campfire"
+  }

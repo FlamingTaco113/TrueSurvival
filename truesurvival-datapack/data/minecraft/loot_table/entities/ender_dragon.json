@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{\"truesurvival\":{\"id\":\"dragon_scale\"}}"
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:rarity": "epic",
+            "minecraft:hide_additional_tooltip": {}
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/ender_dragon"
+}

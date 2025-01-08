@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": "flint"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:stone_axe",
+                  "minecraft:iron_axe",
+                  "minecraft:golden_axe",
+                  "minecraft:diamond_axe",
+                  "minecraft:netherite_axe"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_log"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stripped_cherry_log"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "predicates": {
+              "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"flint_hatchet\"}}"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:blocks/cherry_log"
+}

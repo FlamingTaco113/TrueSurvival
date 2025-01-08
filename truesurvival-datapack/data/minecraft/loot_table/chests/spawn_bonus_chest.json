@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "weight": 1
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "translate": "item.truesurvival.bonus_chest_book",
+              "italic": false
+            }
+          },
+          {
+            "function": "minecraft:set_book_cover",
+            "title": {
+              "raw": ""
+            },
+            "author": "FlamingTaco113"
+          },
+          {
+            "function": "minecraft:set_written_book_pages",
+            "pages": [],
+            "mode": "replace_all"
+          },
+          {
+            "function": "minecraft:set_written_book_pages",
+            "pages": [
+              {
+                "raw": ":P"
+              }
+            ],
+            "mode": "replace_all"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/spawn_bonus_chest"
+  }
