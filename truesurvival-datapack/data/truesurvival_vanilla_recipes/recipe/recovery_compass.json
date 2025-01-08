@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:compass",
+    "S": "minecraft:sculk",
+    "A": "minecraft:amethyst_shard"
+  },
+  "pattern": [
+    "SAS",
+    "ACA",
+    "SAS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:recovery_compass"
+  }
+}
