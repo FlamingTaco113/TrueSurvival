@@ -1,0 +1,19 @@
+{
+    "pack": {
+      "description": "§6[TrueSurvival]\n§eDatapack by FlamingTaco113",
+      "pack_format": 61,
+      "supported_formats": [61,61]
+    },
+    "filter": {
+      "block": [
+        {
+          "namespace": "minecraft",
+          "path": "recipe/"
+        },
+        {
+          "namespace": "minecraft",
+          "path": "advancement/"
+        }
+      ]
+    }
+  }
