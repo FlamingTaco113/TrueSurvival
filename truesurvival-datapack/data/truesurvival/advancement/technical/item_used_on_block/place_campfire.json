@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "place_campfire": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:sheep_spawn_egg",
+              "predicates": {
+                "minecraft:custom_data": {"truesurvival":{"is_campfire":true}}
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "requirements": [
+    [
+      "place_campfire"
+    ]
+  ],
+  "rewards": {
+    "function": "truesurvival:entity/marker/campfires/create_campfire/placed_campfire"
+  }
+}

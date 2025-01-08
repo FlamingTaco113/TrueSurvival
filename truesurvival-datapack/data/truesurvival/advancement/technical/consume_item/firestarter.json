@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "using_firestarter": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"firestarter\"}}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "using_firestarter"
+      ]
+    ],
+    "rewards": {
+      "function": "truesurvival:item/firestarter/find_campfire"
+    }
+  }

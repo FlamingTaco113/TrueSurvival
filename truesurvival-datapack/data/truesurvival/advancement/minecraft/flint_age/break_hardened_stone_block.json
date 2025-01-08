@@ -1,0 +1,26 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_hardened_stone_slab",
+    "criteria": {
+      "break_hardened_stone_block": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.break_hardened_stone_block.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:green_glazed_terracotta"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.break_hardened_stone_block.title"
+      }
+    },
+    "requirements": [
+      [
+        "break_hardened_stone_block"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/aquire_raw_hellsteel",
+    "criteria": {
+      "aquire_hellsteel_ingot": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_ingot_from_blasting_raw_hellsteel"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.aquire_hellsteel_ingot.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherite_ingot"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.aquire_hellsteel_ingot.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_hellsteel_ingot"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

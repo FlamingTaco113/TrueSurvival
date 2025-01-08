@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/break_hardened_stone_block",
+    "criteria": {
+      "craft_furnace": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:furnace"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_furnace.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:furnace"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_furnace.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_furnace"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

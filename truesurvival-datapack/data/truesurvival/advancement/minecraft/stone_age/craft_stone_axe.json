@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/break_hardened_stone_block",
+    "criteria": {
+      "craft_stone_axe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:stone_axe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_stone_axe.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stone_axe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_stone_axe.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_stone_axe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

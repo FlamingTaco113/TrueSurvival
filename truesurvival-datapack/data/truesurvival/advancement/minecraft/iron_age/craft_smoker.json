@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_iron_nugget",
+    "criteria": {
+      "craft_smoker": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:smoker"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_smoker.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:smoker"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_smoker.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_smoker"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

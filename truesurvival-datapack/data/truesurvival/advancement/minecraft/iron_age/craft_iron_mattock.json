@@ -1,0 +1,32 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_iron_nugget",
+    "criteria": {
+      "craft_iron_mattock": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_mattock"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_mattock.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:iron_mattock"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_mattock.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_iron_mattock"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

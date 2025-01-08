@@ -1,0 +1,49 @@
+{
+    "criteria": {
+      "crafted_helmet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_helmet"
+        }
+      },
+      "crafted_chestplate": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_chestplate"
+        }
+      },
+      "crafted_leggings": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_leggings"
+        }
+      },
+      "crafted_boots": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_boots"
+        }
+      }
+    },
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_chestplate",
+        "count": 1
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.tungsten_age.craft_tungsten_armor.title" 
+      },
+      "description": {
+        "translate": "truesurvival.advancements.story.tungsten_age.craft_tungsten_armor.description" 
+      }
+    },
+    "parent": "truesurvival:minecraft/tungsten_age/craft_tungsten_ingot",
+    "requirements": [
+      [
+        "crafted_helmet",
+        "crafted_leggings",
+        "crafted_chestplate",
+        "crafted_boots"
+      ]
+    ]
+  }

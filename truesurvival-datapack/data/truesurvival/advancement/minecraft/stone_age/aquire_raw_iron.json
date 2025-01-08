@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_stone_pickaxe",
+    "criteria": {
+      "aquire_raw_iron": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:raw_iron"
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.aquire_raw_iron.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:raw_iron"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.aquire_raw_iron.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_raw_iron"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

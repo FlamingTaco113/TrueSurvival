@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/iron_age/craft_iron_hatchet",
+    "criteria": {
+      "craft_iron_axe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_axe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_axe.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_axe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_axe.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_iron_axe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

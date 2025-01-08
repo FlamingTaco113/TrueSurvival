@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "getting_water": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"canteen_empty\"}}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "getting_water"
+      ]
+    ],
+    "rewards": {
+      "function": "truesurvival:item/canteen/find_water"
+    }
+  }

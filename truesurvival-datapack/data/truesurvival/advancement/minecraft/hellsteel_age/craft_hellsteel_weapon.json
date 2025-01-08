@@ -1,0 +1,36 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/aquire_hellsteel_ingot",
+    "criteria": {
+      "craft_hellsteel_sword": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_sword"
+        }
+      },
+      "craft_hellsteel_axe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_axe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellsteel_weapon.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherite_sword"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellsteel_weapon.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_hellsteel_sword",
+        "craft_hellsteel_axe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

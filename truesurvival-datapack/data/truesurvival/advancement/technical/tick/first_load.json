@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "rewards": {
+      "function": "truesurvival:technical/first_load"
+    }
+  }

@@ -1,0 +1,52 @@
+{
+    "criteria": {
+      "crafted_helmet_casting_mold": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:helmet_casting_mold"
+        }
+      },
+      "crafted_chestplate_casting_mold": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:chestplate_casting_mold"
+        }
+      },
+      "crafted_leggings_casting_mold": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:leggings_casting_mold"
+        }
+      },
+      "crafted_boots_casting_mold": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:boots_casting_mold"
+        }
+      }
+    },
+    "display": {
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:boots_casting_mold"
+        },
+        "id": "minecraft:stone_pickaxe",
+        "count": 1
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_casting_mold.title" 
+      },
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_casting_mold.description" 
+      }
+    },
+    "parent": "truesurvival:minecraft/iron_age/craft_smithing_table",
+    "requirements": [
+      [
+        "crafted_helmet_casting_mold",
+        "crafted_leggings_casting_mold",
+        "crafted_chestplate_casting_mold",
+        "crafted_boots_casting_mold"
+      ]
+    ]
+  }

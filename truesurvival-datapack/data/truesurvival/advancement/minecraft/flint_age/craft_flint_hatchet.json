@@ -1,0 +1,32 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/aquire_plant_fiber",
+    "criteria": {
+      "craft_flint_hatchet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:flint_hatchet"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_flint_hatchet.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:flint_hatchet"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_flint_hatchet.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_flint_hatchet"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

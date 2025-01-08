@@ -1,0 +1,39 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_flint_knife",
+    "criteria": {
+      "aquire_plant_fiber": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:string",
+                    "components": {
+                        "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"plant_fiber\"}}"
+                    }
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_plant_fiber.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:plant_fiber"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_plant_fiber.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_plant_fiber"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

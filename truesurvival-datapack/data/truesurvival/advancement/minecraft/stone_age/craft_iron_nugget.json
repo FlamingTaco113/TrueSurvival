@@ -1,0 +1,30 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_furnace",
+    "criteria": {
+      "craft_iron_nugget": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_nugget_from_smelting_raw_iron"
+        }
+      }
+    },
+    "display": {
+      "announce_to_chat": false,
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_iron_nugget.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_nugget"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_iron_nugget.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_iron_nugget"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

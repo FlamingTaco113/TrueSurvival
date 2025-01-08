@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/root",
+    "criteria": {
+      "aquire_flint": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:flint"
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_flint.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:flint"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_flint.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_flint"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

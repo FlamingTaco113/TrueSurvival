@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "cutting_grass": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{\"truesurvival\":{\"is_mattock\":true}}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cutting_grass"
+      ]
+    ],
+    "rewards": {
+      "function": "truesurvival:item/mattock/smooth_cobblestone"
+    }
+  }

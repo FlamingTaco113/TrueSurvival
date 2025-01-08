@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/aquire_flint",
+    "criteria": {
+      "aquire_stick": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:stick"
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_stick.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stick"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_stick.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_stick"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

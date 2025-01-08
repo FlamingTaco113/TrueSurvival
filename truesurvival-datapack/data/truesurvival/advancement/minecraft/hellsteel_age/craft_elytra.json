@@ -1,0 +1,31 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/kill_dragon",
+    "criteria": {
+      "elytra": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:elytra"
+        }
+      }
+    },
+    "display": {
+      "hidden": true,
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_elytra.description"
+      },
+      "frame": "challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:elytra"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_elytra.title"
+      }
+    },
+    "requirements": [
+      [
+        "elytra"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "hit_entity_with_weapon": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "type_specific": {
+                "type": "minecraft:player",
+                "gamemode": [
+                  "survival",
+                  "adventure"
+                ]
+            },
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": "{\"truesurvival\":{\"is_weapon\":true}}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "hit_entity_with_weapon"
+      ]
+    ],
+    "rewards": {
+      "function": "truesurvival:entity/player/hit_entity/hit_entity_with_weapon"
+    }
+  }

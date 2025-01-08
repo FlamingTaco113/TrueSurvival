@@ -1,0 +1,26 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_flint_hatchet",
+    "criteria": {
+      "strip_log_with_knife": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.strip_log_with_knife.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stick"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.strip_log_with_knife.title"
+      }
+    },
+    "requirements": [
+      [
+        "strip_log_with_knife"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

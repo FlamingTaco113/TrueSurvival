@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_furnace",
+    "criteria": {
+      "craft_glass_bottle": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:glass_bottle"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_glass_bottle.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:glass_bottle"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_glass_bottle.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_glass_bottle"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "drink_water": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "survival",
+              "adventure"
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {"truesurvival":{"id":"canteen_full"}}
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drink_water"
+    ]
+  ],
+  "rewards": {
+    "function": "truesurvival:entity/player/ui/thirst_bar/drink_water"
+  }
+}

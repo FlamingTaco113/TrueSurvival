@@ -1,0 +1,29 @@
+{
+  "parent": "truesurvival:minecraft/hellsteel_age/find_stronghold",
+    "criteria": {
+      "entered_end": {
+        "conditions": {
+          "to": "minecraft:the_end"
+        },
+        "trigger": "minecraft:changed_dimension"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.enter_end.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:end_stone"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.enter_end.title"
+      }
+    },
+    "requirements": [
+      [
+        "entered_end"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

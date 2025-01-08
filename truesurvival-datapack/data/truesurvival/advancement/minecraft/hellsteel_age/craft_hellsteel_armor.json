@@ -1,0 +1,49 @@
+{
+    "criteria": {
+      "crafted_helmet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_helmet"
+        }
+      },
+      "crafted_chestplate": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_chestplate"
+        }
+      },
+      "crafted_leggings": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_leggings"
+        }
+      },
+      "crafted_boots": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_boots"
+        }
+      }
+    },
+    "display": {
+      "icon": {
+        "id": "minecraft:netherite_chestplate",
+        "count": 1
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellsteel_armor.title" 
+      },
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellsteel_armor.description" 
+      }
+    },
+    "parent": "truesurvival:minecraft/hellsteel_age/aquire_hellsteel_ingot",
+    "requirements": [
+      [
+        "crafted_helmet",
+        "crafted_leggings",
+        "crafted_chestplate",
+        "crafted_boots"
+      ]
+    ]
+  }

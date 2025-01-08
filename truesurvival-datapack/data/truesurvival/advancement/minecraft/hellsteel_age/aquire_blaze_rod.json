@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/craft_hellsteel_weapon",
+    "criteria": {
+      "blaze_rod": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:blaze_rod"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.aquire_blaze_rod.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:blaze_rod"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.aquire_blaze_rod.title"
+      }
+    },
+    "requirements": [
+      [
+        "blaze_rod"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

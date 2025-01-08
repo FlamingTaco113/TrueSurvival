@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_flint_mattock",
+    "criteria": {
+      "aquire_hardened_cobblestone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:blue_glazed_terracotta"
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_hardened_cobblestone.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:blue_glazed_terracotta"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.aquire_hardened_cobblestone.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_hardened_cobblestone"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

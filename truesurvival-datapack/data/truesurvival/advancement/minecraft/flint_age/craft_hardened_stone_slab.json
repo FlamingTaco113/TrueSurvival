@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/aquire_hardened_cobblestone",
+    "criteria": {
+      "craft_hardened_stone_slab": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hardened_stone_slab"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_hardened_stone_slab.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:petrified_oak_slab"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_hardened_stone_slab.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_hardened_stone_slab"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

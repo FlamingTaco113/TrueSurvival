@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_iron_nugget",
+    "criteria": {
+      "craft_carpentry_table": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:carpentry_table"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_carpentry_table.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stonecutter"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_carpentry_table.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_carpentry_table"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,32 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_crafting_table",
+    "criteria": {
+      "craft_canteen": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:canteen"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_canteen.description"
+      },
+      "icon": {
+        "components": {
+            "minecraft:item_model": "truesurvival:canteen"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_canteen.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_canteen"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

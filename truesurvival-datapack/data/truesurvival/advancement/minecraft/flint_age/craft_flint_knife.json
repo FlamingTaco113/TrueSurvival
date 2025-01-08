@@ -1,0 +1,32 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/aquire_stick",
+    "criteria": {
+      "craft_flint_knife": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:flint_knife"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_flint_knife.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:flint_knife"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_flint_knife.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_flint_knife"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/stone_age/craft_glass_bottle",
+    "criteria": {
+      "purify_water_bottle": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.purify_water_bottle.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:potion_contents": "minecraft:water"
+        },
+        "count": 1,
+        "id": "minecraft:potion"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.purify_water_bottle.title"
+      }
+    },
+    "requirements": [
+      [
+        "purify_water_bottle"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/aquire_hellsteel_ingot",
+    "criteria": {
+      "craft_hellsteel_pickaxe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_pickaxe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellsteel_pickaxe.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherite_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellsteel_pickaxe.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_hellsteel_pickaxe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,105 @@
+{
+    "criteria": {
+      "crafted_iron_boots": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_boots"
+        }
+      },
+      "crafted_iron_leggings": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_leggings"
+        }
+      },
+      "crafted_iron_chestplate": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_chestplate"
+        }
+      },
+      "crafted_iron_helmet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_helmet"
+        }
+      },
+      "crafted_tungsten_helmet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_helmet"
+        }
+      },
+      "crafted_tungsten_chestplate": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_chestplate"
+        }
+      },
+      "crafted_tungsten_leggings": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_leggings"
+        }
+      },
+      "crafted_tungsten_boots": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_boots"
+        }
+      },
+      "crafted_hellsteel_helmet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_helmet"
+        }
+      },
+      "crafted_hellsteel_chestplate": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_chestplate"
+        }
+      },
+      "crafted_hellsteel_leggings": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_leggings"
+        }
+      },
+      "crafted_hellsteel_boots": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:hellsteel_boots"
+        }
+      }
+    },
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_chestplate",
+        "count": 1
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_armor.title" 
+      },
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_armor.description" 
+      }
+    },
+    "parent": "truesurvival:minecraft/iron_age/craft_mold",
+    "requirements": [
+      [
+        "crafted_iron_boots",
+        "crafted_iron_leggings",
+        "crafted_iron_chestplate",
+        "crafted_iron_helmet",
+        "crafted_tungsten_boots",
+        "crafted_tungsten_chestplate",
+        "crafted_tungsten_helmet",
+        "crafted_tungsten_leggings",
+        "crafted_hellsteel_boots",
+        "crafted_hellsteel_chestplate",
+        "crafted_hellsteel_helmet",
+        "crafted_hellsteel_leggings"
+      ]
+    ]
+  }

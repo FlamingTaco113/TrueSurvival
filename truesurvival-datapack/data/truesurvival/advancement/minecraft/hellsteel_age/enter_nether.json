@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/tungsten_age/aquire_obsidian",
+    "criteria": {
+      "entered_nether": {
+        "conditions": {
+          "to": "minecraft:the_nether"
+        },
+        "trigger": "minecraft:changed_dimension"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.enter_nether.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherrack"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.enter_nether.title"
+      }
+    },
+    "requirements": [
+      [
+        "entered_nether"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

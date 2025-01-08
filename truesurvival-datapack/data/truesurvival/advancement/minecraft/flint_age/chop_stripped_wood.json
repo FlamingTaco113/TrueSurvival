@@ -1,0 +1,26 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_flint_hatchet",
+    "criteria": {
+      "chop_stripped_wood": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.chop_stripped_wood.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:oak_planks"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.chop_stripped_wood.title"
+      }
+    },
+    "requirements": [
+      [
+        "chop_stripped_wood"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

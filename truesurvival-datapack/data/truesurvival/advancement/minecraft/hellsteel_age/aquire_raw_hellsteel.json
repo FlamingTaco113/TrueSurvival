@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/craft_hellstone_forge",
+    "criteria": {
+      "aquire_raw_hellsteel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:netherite_scrap"
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.aquire_raw_hellsteel.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.aquire_raw_hellsteel.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_raw_hellsteel"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

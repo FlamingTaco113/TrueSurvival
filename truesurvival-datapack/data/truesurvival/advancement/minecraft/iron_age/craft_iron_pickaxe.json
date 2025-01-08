@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/iron_age/craft_iron_mattock",
+    "criteria": {
+      "craft_iron_pickaxe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_pickaxe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_pickaxe.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_pickaxe.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_iron_pickaxe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,36 @@
+{
+    "parent": "truesurvival:minecraft/tungsten_age/aquire_raw_tungsten",
+    "criteria": {
+      "craft_tungsten_ingot_from_smelting": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_ingot_from_smelting"
+        }
+      },
+      "craft_tungsten_ingot_from_blasting": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_ingot_from_blasting"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.tungsten_age.craft_tungsten_ingot.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:structure_block"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.tungsten_age.craft_tungsten_ingot.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_tungsten_ingot_from_smelting",
+        "craft_tungsten_ingot_from_blasting"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

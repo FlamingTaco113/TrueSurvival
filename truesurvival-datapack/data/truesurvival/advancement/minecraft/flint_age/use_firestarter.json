@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_campfire",
+    "criteria": {
+      "use_firestarter": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.use_firestarter.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:firestarter"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.use_firestarter.title"
+      }
+    },
+    "requirements": [
+      [
+        "use_firestarter"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

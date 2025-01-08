@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "cutting_log": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{\"truesurvival\":{\"is_hatchet\":true}}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cutting_log"
+      ]
+    ],
+    "rewards": {
+      "function": "truesurvival:item/hatchet/cut_log"
+    }
+  }

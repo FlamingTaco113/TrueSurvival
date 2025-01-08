@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "cutting_grass": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{\"truesurvival\":{\"id\":\"flint_knife\"}}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cutting_grass"
+      ]
+    ],
+    "rewards": {
+      "function": "truesurvival:item/flint_knife/find_grass"
+    }
+  }

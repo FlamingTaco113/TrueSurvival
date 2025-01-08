@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/break_hardened_stone_block",
+    "criteria": {
+      "craft_stone_pickaxe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:stone_pickaxe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_stone_pickaxe.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.stone_age.craft_stone_pickaxe.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_stone_pickaxe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

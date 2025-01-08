@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/craft_crafting_table",
+    "criteria": {
+      "craft_campfire": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:campfire"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_campfire.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:campfire"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.craft_campfire.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_campfire"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,32 @@
+{
+    "parent": "truesurvival:minecraft/iron_age/craft_iron_mattock",
+    "criteria": {
+      "craft_iron_hatchet": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:iron_hatchet"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_hatchet.description"
+      },
+      "icon": {
+        "components": {
+          "minecraft:item_model": "truesurvival:iron_hatchet"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.iron_age.craft_iron_hatchet.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_iron_hatchet"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

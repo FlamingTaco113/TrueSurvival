@@ -1,0 +1,33 @@
+{
+    "parent": "truesurvival:minecraft/iron_age/craft_iron_pickaxe",
+    "criteria": {
+      "aquire_raw_tungsten": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "minecraft:diamond"
+                }
+            ]
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.tungsten_age.aquire_raw_tungsten.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:diamond"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.tungsten_age.aquire_raw_tungsten.title"
+      }
+    },
+    "requirements": [
+      [
+        "aquire_raw_tungsten"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

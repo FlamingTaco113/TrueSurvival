@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/tungsten_age/craft_tungsten_ingot",
+    "criteria": {
+      "craft_tungsten_pickaxe": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:tungsten_pickaxe"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.tungsten_age.craft_tungsten_pickaxe.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:diamond_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.tungsten_age.craft_tungsten_pickaxe.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_tungsten_pickaxe"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

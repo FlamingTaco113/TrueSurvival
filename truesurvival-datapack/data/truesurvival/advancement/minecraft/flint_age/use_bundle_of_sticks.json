@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/flint_age/use_firestarter",
+    "criteria": {
+      "use_bundle_of_twigs": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.flint_age.use_bundle_of_twigs.description"
+      },
+      "icon": {
+        "components": {
+            "minecraft:item_model": "truesurvival:bundle_of_twigs"
+        },
+        "count": 1,
+        "id": "minecraft:stone_pickaxe"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.flint_age.use_bundle_of_twigs.title"
+      }
+    },
+    "requirements": [
+      [
+        "use_bundle_of_twigs"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

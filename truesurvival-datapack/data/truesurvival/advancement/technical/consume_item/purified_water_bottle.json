@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "drink_purified_water": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "player",
+            "gamemode": [
+              "survival",
+              "adventure"
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:potion",
+          "predicates": {
+            "minecraft:potion_contents": "minecraft:thick",
+            "custom_data": {"truesurvival":{"id":"purified_water"}}
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drink_purified_water"
+    ]
+  ],
+  "rewards": {
+    "function": "truesurvival:entity/player/ui/thirst_bar/drink_purified_water"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "parent": "truesurvival:minecraft/hellsteel_age/find_fortress",
+    "criteria": {
+      "craft_hellstone_forge": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "truesurvival:blast_furnace"
+        }
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellstone_forge.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:blast_furnace"
+      },
+      "title": {
+        "translate": "truesurvival.advancements.story.hellsteel_age.craft_hellstone_forge.title"
+      }
+    },
+    "requirements": [
+      [
+        "craft_hellstone_forge"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
